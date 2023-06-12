@@ -33,3 +33,47 @@ main {
 #weatherInfo {
     flex: 3;
 }
+
+#weatherReport{
+    display: flex;
+    justify-content: center;
+}
+
+#report {
+    background-color: blue;
+    height: 180px;
+    width: 901px;
+    margin-top: 25px;
+    border: 3px solid black;
+}
+
+#fivedayforecast {
+    display: flex;
+    justify-content: center;
+}
+
+#fivedayforecast h2 {
+    display: inline-block;
+    background-color: blue ;
+    padding: 15px 140px 15px 140px;
+    border: 3px solid black;
+}
+
+#forecastColumn {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.fiveDayForecast {
+    background-color: blue;
+    height: 280px;
+    width: 170px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.fiveDayForecast ul li {
+    list-style-type: none;
+}

@@ -3,41 +3,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Weather Dashboard</title>
-  <link rel="stylesheet" href="https://cdn.sdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <title>Weather Dashboard</title>
 </head>
-<body class="container m-0">
-    <header class="bg-primary px-3">
+<body>
+    <header>
         <h1>Weather Dashboard</h1>
     </header>
     <main>
-        <div class="citySection col-12 col-md-4 col-lg-3" >
+        <div class="citySection">
             <h3>Search for a city:</h3>
             <form id="city-form">
               <input id="city" type="text">
               <button type="submit" class="butn">Search</button>
             </form>
-              <button type="submit" id="btn1"></button>
-              <button type="submit" id="btn2"></button>
-              <button type="submit" id="btn3"></button>
-              <button type="submit" id="btn4"></button>
-              <button type="submit" id="btn5"></button>
         </div>
         <div id="weatherInfo">
             <aside>
                 <div id="weatherReport">
                     <div id="report"></div>
                 </div>
+                <div id="fivedayforecast">
+                    <h2>5 Day Forecast</h2>
+                </div>
                 <div id="forecastColumn">
-                    <div class="fiveDayForecast"></div>
-                    <div class="fiveDayForecast"></div>
-                    <div class="fiveDayForecast"></div>
-                    <div class="fiveDayForecast"></div>
-                    <div class="fiveDayForecast"></div>
+                    <div class="fiveDayForecast" id="fdf1">
+                        <ul>
+                            <li>Tempature</li>
+                            <li>Humidity</li>
+                            <li>Wind</li>
+                        </ul>
+                    </div>
+                    <div class="fiveDayForecast" id="fdf2">
+                        <ul>
+                            <li>Tempature</li>
+                            <li>Humidity</li>
+                            <li>Wind</li>
+                        </ul>
+                    </div>
+                    <div class="fiveDayForecast" id="fdf3">
+                        <ul>
+                            <li>Tempature</li>
+                            <li>Humidity</li>
+                            <li>Wind</li>
+                        </ul>
+                    </div>
+                    <div class="fiveDayForecast" id="fdf4">
+                        <ul>
+                            <li>Tempature</li>
+                            <li>Humidity</li>
+                            <li>Wind</li>
+                        </ul>
+                    </div>
+                    <div class="fiveDayForecast" id="fdf5">
+                        <ul>
+                            <li>Tempature</li>
+                            <li>Humidity</li>
+                            <li>Wind</li>
+                        </ul>
+                    </div>
                 </div>
             </aside>
         </div>
     </main>
+    <footer>
+
+    </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
